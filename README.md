@@ -1,4 +1,4 @@
-# Isogram
+ # Isogram
 
 **Objective:** Setup a solution with test cases to determine if a word or phrase is an isogram.
 
