@@ -7,24 +7,24 @@ namespace Isogram
     public static class Program
             {          public static void Main(string[] args)
                 {
-                              Console.WriteLine("Heloo");
+                              Console.WriteLine("Hello World!!");
                 } 
 
             public static bool isogram(string text)
             {
             char[] str = text.ToCharArray();
-            char[] newstr = new char[str.Length];
+            char[] str2 = new char[str.Length];
             for (int i = 0; i < str.Length; i++)
             {
-                if (str[i] != ' ' && str[i] != '-')
+                if (str[i] != '-' && str[i] != ' ')
                 {
-                    if (newstr.Contains(str[i]))
+                    if (str2.Contains(str[i]))
                     {
                         return false;                   
                             }
                     else
                     {
-                        newstr[i] = str[i];
+                        str2[i] = str[i];
                     }
                 }
 
