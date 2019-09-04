@@ -42,24 +42,24 @@ namespace Isogram.Tests
 
 
         [Fact]
-        public void Test6()
+        public void Hyphen()
         {
 
             Assert.Equal(true, Program.isogram("thumbscrew-japingly"));
         }
 
         [Fact]
-        public void Test7()
+        public void DuplicatedHyphen()
         {
 
             Assert.Equal(true, Program.isogram("six-year-old"));
         }
 
         [Fact]
-        public void Test8()
+        public void Space()
         {
 
-            Assert.Equal(true, Program.isogram("six year old"));
+            Assert.Equal(true, Program.isogram("shorya"));
         }
 
     }
